@@ -25,7 +25,11 @@ City files use a `cities` array and a map name. Mountain files use a `mountains`
 ```json
 {
   "cities": [
-    { "Name": "City", "x": 1, "y": 1 }
+    {
+      "Name": "CityName",
+      "x": 1,
+      "y": 1
+    }
   ],
   "name": "MapId"
 }
@@ -34,7 +38,12 @@ City files use a `cities` array and a map name. Mountain files use a `mountains`
 ```json
 {
   "mountains": [
-    { "Name": "Mountain", "Elevation": 100, "x": 1, "y": 1 }
+    {
+      "Name": "MountainName",
+      "Elevation": 100,
+      "x": 1,
+      "y": 1
+    }
   ],
   "name": "MapId"
 }

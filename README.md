@@ -60,7 +60,7 @@ Create a root `.env` based on `.env.example` with `OPENAI_API_KEY`, `EVAL_MODEL`
 pnpm eval
 ```
 
-The current evaluation has 6 cases x 2 scenarios, for 12 model requests. Model usage may incur charges.
+The current evaluation has 5 cases x 2 scenarios, for 10 model requests. Model usage may incur charges.
 
 `baseline` does not inject skills. `with-skills` injects the real `SKILL.md` files selected by each case. The prompt, output contract, and scoring are otherwise identical. Change `EVAL_MODEL` and run the evaluation again to compare models; results are saved in `.vieval/reports/`.
 
