@@ -1,0 +1,24 @@
+{
+  "name": "age-of-history-mod-dev-skills",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Skills in Developing Mods for the “Age of History” Series.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TASA-Ed/age-of-history-mod-dev-skills"
+  },
+  "scripts": {
+    "test": "vieval run --config vieval.config.ts --project structure",
+    "eval": "vieval run --config vieval.config.ts --project models --report-out .vieval/reports",
+    "typecheck": "tsc"
+  },
+  "keywords": [],
+  "author": "TASA-Ed Studio",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@types/node": "^22.20.3",
+    "typescript": "^7.0.2",
+    "vieval": "^0.0.12"
+  }
+}
